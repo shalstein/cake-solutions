@@ -2,6 +2,10 @@
 {
     private static void Main(string[] args)
     {
+        var b = "hunter".ToCharArray();
+        ReverseStringInPlace.Reverse(b);
+        var c = string.Concat(b);
+        Console.WriteLine(c);
     }
 
     public static List<int> CountingSort(List<int> arr)
