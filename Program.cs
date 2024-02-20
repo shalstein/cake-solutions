@@ -2,16 +2,6 @@
 {
     private static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
-        List<List<int>> meetingTimes = [[1, 5], [2, 4]];
-        int[,] xmeetingTimesArray = { { 1, 5 }, { 2, 4 } };
-        int[,] meetingTimesArray = {
-            { 0, 1 },
-            { 3, 5 },
-            { 4, 8 },
-            { 10, 12 },
-            { 9, 10 }
-        };
     }
 
     public static List<int> CountingSort(List<int> arr)
