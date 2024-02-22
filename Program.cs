@@ -2,10 +2,11 @@
 {
     private static void Main(string[] args)
     {
-        var b = "robb  chani     is".ToCharArray();
-        ReverseWords.Words(b);
-        var c = string.Concat(b);
-        Console.WriteLine(c);
+        int[] a = [3, 7, 9];
+        int[] b = [1, 10, 15];
+        int[] myArray = [3, 4, 6, 10, 11, 15];
+        int[] alicesArray = [1, 5, 8, 12, 14, 19];
+        var c = MergeSortedArrays.Merge(myArray, alicesArray);
     }
 
     public static List<int> CountingSort(List<int> arr)
