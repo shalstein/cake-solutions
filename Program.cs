@@ -2,11 +2,11 @@
 {
     private static void Main(string[] args)
     {
-        int[] a = [3, 7, 9];
-        int[] b = [1, 10, 15];
-        int[] myArray = [3, 4, 6, 10, 11, 15];
-        int[] alicesArray = [1, 5, 8, 12, 14, 19];
-        var c = MergeSortedArrays.Merge(myArray, alicesArray);
+        int[] takeOut = [1, 3, 5];
+        int[] dineIn = [2, 4, 6];
+        int[] served = [1, 2, 6, 5, 4, 3];
+        var c = CafeOrderChecker.Check(takeOut, dineIn, served);
+        Console.WriteLine(c);
     }
 
     public static List<int> CountingSort(List<int> arr)
