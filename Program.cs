@@ -2,8 +2,8 @@
 {
     private static void Main(string[] args)
     {
-        var b = "hunter".ToCharArray();
-        ReverseStringInPlace.Reverse(b);
+        var b = "robb  chani     is".ToCharArray();
+        ReverseWords.Words(b);
         var c = string.Concat(b);
         Console.WriteLine(c);
     }
