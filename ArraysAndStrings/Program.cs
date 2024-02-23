@@ -2,7 +2,7 @@
 {
     private static void Main(string[] args)
     {
-        var a = PermutationHasPalindrome.Check("racecra");
+        var a = "abc".Substring(2, 1);
         Console.WriteLine(a);
     }
 
