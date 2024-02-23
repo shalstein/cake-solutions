@@ -2,8 +2,8 @@
 {
     private static void Main(string[] args)
     {
-        var c = InflightEnertainment.IsTwoMoviesFillFlight(89, [1, 30, 60, 40]);
-        Console.WriteLine(c);
+        var a = PermutationHasPalindrome.Check("racecra");
+        Console.WriteLine(a);
     }
 
     public static List<int> CountingSort(List<int> arr)
