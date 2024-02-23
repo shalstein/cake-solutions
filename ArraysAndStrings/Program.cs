@@ -2,10 +2,7 @@
 {
     private static void Main(string[] args)
     {
-        int[] takeOut = [1, 3, 5];
-        int[] dineIn = [2, 4, 6];
-        int[] served = [1, 2, 6, 5, 4, 3];
-        var c = CafeOrderChecker.Check(takeOut, dineIn, served);
+        var c = InflightEnertainment.IsTwoMoviesFillFlight(89, [1, 30, 60, 40]);
         Console.WriteLine(c);
     }
 
