@@ -2,7 +2,9 @@
 {
     private static void Main(string[] args)
     {
-        var a = "abc".Substring(2, 1);
+        int[] b = [10, 7, 11, 2, 3];
+        int[] bb = [5, 3, 2, 1];
+        var a = AppleStocks.GetMaxProfit(bb);
         Console.WriteLine(a);
     }
 
