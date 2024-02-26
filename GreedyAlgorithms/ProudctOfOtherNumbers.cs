@@ -10,12 +10,12 @@ static class ProductOfOtherNumbers
             results[i] = results[i - 1] * arrayOfInts[i - 1];
         }
         int productSoFar = 1;
-        for (int i = arrayOfInts.Length - 2; i >= 0; i--)
+        for (int i = arrayOfInts.Length - 1; i >= 0; i--)
         {
-            productSoFar *= arrayOfInts[i + 1];
-            results[i] = productSoFar + results[i];
+            results[i] *= productSoFar;
+            productSoFar *= arrayOfInts[i];
+            Console.WriteLine(productSoFar);
         }
-        results[0] = results[1] * arrayOfInts[1];
         return results;
 
     }
